@@ -31,6 +31,20 @@ npm install @ngrx/store --save
 
 </details>
 
+<details><summary>State Management, Redux, NgRx</summary>
+
+<br>
+
+Ciclo:
+
+```
+State (define) UI (dispara) ACTIONS (envia) REDUCERS (atualiza) STORES (contém) State...
+```
+
+https://ngrx.io/
+
+</details>
+
 <br>
 
 # Referência
