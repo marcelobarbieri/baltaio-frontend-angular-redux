@@ -45,6 +45,21 @@ https://ngrx.io/
 
 </details>
 
+<details><summary>Models</summary>
+
+<br>
+
+```ps
+ng add @ngrx/store
+```
+
+```ps
+npm install @ngrx/store@latest --legacy-peer-deps
+ng g @ngrx/store:init
+```
+
+</details>
+
 <br>
 
 # Referência
