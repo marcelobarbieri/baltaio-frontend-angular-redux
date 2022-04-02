@@ -119,6 +119,20 @@ Mockoon
 
 </details>
 
+<details><summary>Navbar - Parte 1</summary>
+
+<br>
+
+```ps
+ionic serve
+```
+
+```ps
+ionic generate component components/navbar
+```
+
+</details>
+
 <br>
 
 # Referência

@@ -15,3 +15,4 @@ export class DataService {
     getProducts() {
         return this.http.get<ProductModel[]>(`${this.url}/products`);
     }
+}
