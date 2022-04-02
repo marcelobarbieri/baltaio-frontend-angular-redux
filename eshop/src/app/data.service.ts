@@ -6,13 +6,13 @@ import { ProductModel } from "./models/product.model";
     providedIn: "root"
 })
 export class DataService {
-    public url = 'http://localhost:3002/v1';
+    public url = 'http://127.0.0.1:3002/v1';
 
     constructor(
         private http: HttpClient
     ) { }
 
     getProducts() {
-        return this.http.get<ProductModel[]>(`${this.url}/products`);
+        return this.http.get<Array<ProductModel>>(`${this.url}/products`);
     }
 }

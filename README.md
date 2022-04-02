@@ -145,6 +145,8 @@ ionic generate component components/product-list
 
 </details>
 
+- Listando os Produtos - Parte 2
+
 <br>
 
 # Referência
