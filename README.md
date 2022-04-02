@@ -60,6 +60,8 @@ ng g @ngrx/store:init
 
 </details>
 
+- Actions
+
 <br>
 
 # Referência
