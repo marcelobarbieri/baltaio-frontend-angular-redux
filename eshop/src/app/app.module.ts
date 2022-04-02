@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
-
+import { HttpClientModule } from '@angular/common/http';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { StoreModule } from '@ngrx/store';
-import { reducers, metaReducers } from './reducers';
+import { cartReducer } from './reducers/cart.reducer';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,15 +16,17 @@ import { reducers, metaReducers } from './reducers';
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule,
-    StoreModule.forRoot(reducers, {
-      metaReducers,
-      runtimeChecks: {
-        strictStateImmutability: true,
-        strictActionImmutability: true
-      }
-    })],
+    HttpClientModule,
+    StoreModule.forRoot({
+      cart: cartReducer
+    })
+  ],
   providers: [
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+    {
+      provide: RouteReuseStrategy,
+      useClass: IonicRouteStrategy
+    }
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule { }

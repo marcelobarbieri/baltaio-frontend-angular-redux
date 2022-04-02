@@ -62,6 +62,7 @@ ng g @ngrx/store:init
 
 - Actions
 - Reducers
+- Configurando o Store
 
 <br>
 
