@@ -14,8 +14,10 @@ export class NavbarComponent implements OnInit {
   cart$: Observable<CartModel>;
 
   constructor(
-    private store: Store<CartModel>
-  ) { }
+    private store: Store<{ cart: CartModel }>
+  ) {
+    this.cart$ = store.pipe(select('cart'));
+  }
 
   ngOnInit() { }
 

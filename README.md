@@ -133,6 +133,8 @@ ionic generate component components/navbar
 
 </details>
 
+- Navbar - Parte 2
+
 <br>
 
 # Referência
