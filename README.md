@@ -135,6 +135,16 @@ ionic generate component components/navbar
 
 - Navbar - Parte 2
 
+<details><summary>Listando os Produtos - Parte 1</summary>
+
+<br>
+
+```ps
+ionic generate component components/product-list
+```
+
+</details>
+
 <br>
 
 # Referência
