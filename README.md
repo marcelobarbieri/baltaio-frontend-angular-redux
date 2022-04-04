@@ -158,6 +158,16 @@ npm audit fix
 
 </details>
 
+<details><summary>Carrinho de Compras - Parte 1</summary>
+
+<br>
+
+```ps
+ionic generate component components/shopping-cart
+```
+
+</details>
+
 <br>
 
 # Referência
