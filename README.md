@@ -145,7 +145,18 @@ ionic generate component components/product-list
 
 </details>
 
-- Listando os Produtos - Parte 2
+<details><summary>Listando os Produtos - Parte 2</summary>
+
+<br>
+
+Erro corrigido com a cópia dos arquivos **package.json** e **tsconfig.json** do projeto de referência e, basicamente, a execução dos comandos abaixo.
+
+```ps
+npm install
+npm audit fix
+```
+
+</details>
 
 <br>
 
