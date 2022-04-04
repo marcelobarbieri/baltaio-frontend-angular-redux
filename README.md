@@ -169,6 +169,7 @@ ionic generate component components/shopping-cart
 </details>
 
 - Carrinho de Compras - Parte 2
+- Total da Compra
 
 <br>
 
