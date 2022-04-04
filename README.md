@@ -168,6 +168,8 @@ ionic generate component components/shopping-cart
 
 </details>
 
+- Carrinho de Compras - Parte 2
+
 <br>
 
 # Referência
