@@ -1,5 +1,15 @@
 # Criando Apps Web com Angular e Redux
 
+## Aprendizado
+
+1. Organizar uma aplicação Angular com Redux
+2. O que é Redux, NgRX, State Management
+3. Aplicação do padrão Redux
+4. Reducers, Actions, Stores
+5. Criar um carrinho de compras
+
+## Tópicos
+
 > As aulas foram organizadas dentro dos _commits_
 
 - Apresentação
@@ -171,7 +181,27 @@ ionic generate component components/shopping-cart
 - Carrinho de Compras - Parte 2
 - Total da Compra
 
+<details><summary>Conclusão</summary>
+
 <br>
+
+```ps
+ionic build --prod
+```
+
+```ps
+www
+```
+
+</details>
+
+<br>
+
+# Links
+
+https://ngrx.io/
+
+https://ionicframework.com/
 
 # Referência
 
